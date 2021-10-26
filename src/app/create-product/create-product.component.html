@@ -1,0 +1,60 @@
+<body></body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+    <div class="image" >
+    <a class="navbar-brand" href="#">
+      <img src="../assets/images/images (1).png" style="width:50px" >
+    </a></div>
+  
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div class="col-md-10">
+      <ul class="navbar-nav mr-auto ">
+      <b>  <li class="nav-item active">
+          <a class="nav-link" routerLink="base" style="color: darkred;" (click)="home1()">EasyBuy </a>
+        </li></b>
+        <b> <li class="nav-item active">
+          <a class="nav-link" routerLink="home" style="color: blue;" (click)="home()">Home </a>
+        </li></b>
+        <b> <li class="nav-item">
+          <a class="nav-link" routerLink="list" style="color: blue;" (click)="list()">View Items</a>
+        </li></b>
+        <b> <li class="nav-item">
+          <a class="nav-link"  routerLink="create" style="color: blue;">Add Items</a>
+        </li></b>
+        </ul>
+  </div>
+  <button class="btn btn-success mx-3" style="border-radius: 8px;">LogOut</button>
+      
+    </div>
+  
+  </nav>
+
+
+  <div class="row mt-4">
+<div class="col-md-1"></div>
+<div class="col-md-11">
+<div class="card" style="width: 30%;height: 450px;text-align: center;border-radius: 5px;">
+  <h3  style="text-align:center;color: maroon;">Cretae New Product....!</h3><hr>
+<form #addproductform="ngForm" (ngSubmit)=addproduct(addproductform.value)>
+   <b>Enter Product Name:</b> <input type="text" placeholder="Enter Product Name..." name="name" ngModel><br><br>
+   <b> Enter Product Price:</b><input type="text" placeholder="Enter Price.." name="price" ngModel><br><br>
+    <b>  Enter Quantity of Products:</b><input type="text" placeholder="Enter Quantity..." name="quantity" ngModel><br><br>
+      <b> Enter Rating of the Product:</b><input type="text" placeholder="Enter Rating.." name="rating" ngModel><br><br>
+        <b> Enter Warrenty:</b> <input type="text" placeholder="Enter Warenty.." name="waarenty" ngModel><br><br>
+    <input type="submit" style="background-color: rgb(3, 32, 30);border-radius: 5px;" value="AddProduct">
+    <hr>
+</form>
+</div>
+</div>
+  </div>
+
+
+<hr>
+  <footer>
+    <div class="container-fluid">
+      <p style="background-color: mediumaquamarine ; text-align: center; color: rgb(236, 57, 12);"><b>Copyrights by Siva Sankar  Mittireddy @2021</b> </p>
+    </div>
+  </footer>

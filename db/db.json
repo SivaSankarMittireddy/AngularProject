@@ -1,0 +1,45 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "SAMSUNG 1.5 Ton 3 Star Split Inverter AC - White",
+      "price": "₹28990",
+      "quantity": "20",
+      "rating": "******",
+      "waarenty": "4 Years",
+      "img": "../assets/images/exp.jpg"
+    },
+    {
+      "id": 2,
+      "name": "OnePlus Y Series 100 cm (40 inch) Full HD LED Smart Android TV  (40FA1A00)",
+      "price": "₹22,499",
+      "quantity": "25",
+      "rating": "****",
+      "waarenty": "3 Years"
+    },
+    {
+      "id": 3,
+      "name": "Whirlpool 6 kg Fully Automatic Top Load Grey  (WM ROYAL 6.0 GENX GREY 5YMW)",
+      "price": "₹12,990",
+      "quantity": "15",
+      "rating": "***",
+      "waarenty": "4 Years"
+    },
+    {
+      "id": 4,
+      "name": "LG 308 L Frost Free Double Door 2 Star Refrigerator  (Shiny Steel, GL-C322KPZY)",
+      "price": "₹30,990",
+      "quantity": "30",
+      "rating": "******",
+      "waarenty": " 5 Years"
+    },
+    {
+      "id": 5,
+      "name": "Canon EOS 7D Mark II DSLR Camera (Body only)",
+      "price": "₹99,999",
+      "quantity": "10",
+      "rating": "****",
+      "waarenty": "3 Years"
+    }
+  ]
+}
